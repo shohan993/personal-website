@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a href="/" class="logo">Shohan</a>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#About">About</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Contact">Contact</a>
+                <a href="#Contact" class="btn-talk">Let's Talk</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <p class="greeting">👋 Hi there</p>
+                <h1 class="hero-title"><span class="highlight">I am </span> networking  experts <span class="highlight">Shohan </span></h1>
+                <p class="hero-description">Networking is the backbone of modern communication and technology,
+                    connecting devices, systems, and people across the globe</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <img src="./images/hero.jpg" alt="Profile Image" />
+                </div>
+            </div>
+        </section>
+
+        <section id="About">
+            <h2>About Me</h2>
+            <p>Hello! I am a dedicated Person with a strong passion for learning and exploring new technologies. My enthusiasm drives me to approach every task with focus and determination. I enjoy solving problems creatively and continuously improving my skills, making me a reliable and motivated individual ready to tackle challenges and achieve excellence. </p>
+            <a href="">Download CV</a>
+        </section>
+
+        <section id="Skills">
+            <div class="skills-header">
+                <h2>MY SKILLS</h2>
+                <p>I do all kinds of neat stuff</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa fa-connectdevelop" aria-hidden="true"></i></div>
+                    <h3 class="skill-title">Network administrator CCNA</h3>
+                    <p class="skill-description">A Network Administrator with CCNA certification manages, configures, and troubleshoots network systems, ensuring secure and efficient communication across devices.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa fa-connectdevelop" aria-hidden="true"></i></div>
+                    <h3 class="skill-title">mikrotik administrator</h3>
+                    <p class="skill-description">A Mikrotik Administrator with CCNA manages, configures, and secures Mikrotik devices for reliable network performance and connectivity.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa fa-connectdevelop" aria-hidden="true"></i></div>
+                    <h3 class="skill-title">OLT management</h3>
+                    <p class="skill-description">OLT management involves configuring, monitoring, and maintaining Optical Line Terminals for efficient fiber-optic network communication and performance.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <div class="project-i">
+                        <img src="./images/project.jpeg" width="100%" alt="Project Image" />
+                    </div>
+                    <h3>Project 1</h3>
+                    <p>A VLAN (Virtual Local Area Network) is a logical grouping of devices within a network, which can be geographically dispersed but still behave as if they are on the same physical network segment.</p>
+                </div>
+                <div class="project">
+                    <div class="project-i">
+                        <img src="./images/project2.jpeg" width="100%" alt="Project Image" />
+                    </div>
+                    <h3>Project 2</h3>
+                    <p>A RIP Configuration refers to the setup and customization of the Routing Information Protocol (RIP) on network devices like routers. </p>
+                </div>
+                <div class="project">
+                    <div class="project-i">
+                        <img src="./images/project1.jpeg" width="100%" alt="Project Image" />
+                    </div>
+                    <h3>Project 3</h3>
+                    <p>OSPF (Open Shortest Path First) is a widely used link-state routing protocol designed for large and scalable networks.</p>
+                </div>
+            </div>
+        </section>
+        <section id="Contact">
+                <div class="contact-header">
+                    <h2>CONTACT ME</h2>
+                    <p>Let's work together on something great</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>Ward-20,mohakhli,Dhaka, 1212</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p>+8801746949353</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>shohan04@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Shohan. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html> 
